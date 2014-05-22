@@ -1,0 +1,29 @@
+﻿La génération a démarré 19/05/2014 11:19:33.
+     1>Projet "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\ConsoleApplication3\ConsoleApplication3.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>PreBuildEvent:
+         COPY "..\Myo_SDK\bin\myo32.dll" "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\" && COPY "..\Myo_SDK\bin\ble32.dll" "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\" && COPY "..\Myo_SDK\bin\redist64\msvcp120.dll" "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\" && COPY "..\Myo_SDK\bin\redist64\msvcr120.dll" "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\"
+               
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Myo_SDK\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CONSOLEAPPLICATION3_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Myo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Myo_SDK\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CONSOLEAPPLICATION3_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Myo_SDK\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CONSOLEAPPLICATION3_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Myo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt myoCsharp.cpp
+         myoCsharp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\Myo_SDK\lib myo64.lib myo32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\myoCsharp.obj
+         Debug\stdafx.obj
+            CrÚation de la bibliothÞque D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.lib et de l'objet D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.exp
+         ConsoleApplication3.vcxproj -> D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\Debug\Myo.dll
+     1>Génération du projet "D:\Documents\Visual Studio 2013\Projects\myoDLLforVVVVc++\ConsoleApplication3\ConsoleApplication3.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:04.42
